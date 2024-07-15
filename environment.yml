@@ -1,0 +1,16 @@
+name: catalog
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - geopy
+  - numpy
+  - seaborn
+  - cartopy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - shapely
+  - obspy
+  - utm
