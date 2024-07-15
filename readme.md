@@ -12,10 +12,6 @@ The code has been tested on MacOS.
     conda env create -f environment.yml
     conda activate catalog
     ```
-3. Install the `src` package.
-    ```bash
-    pip install -e .
-    ```
 
 ### Usage
 
