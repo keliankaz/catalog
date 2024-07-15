@@ -14,7 +14,7 @@ from typing import Optional, Literal, Union
 import copy
 import warnings
 from pathlib import Path
-from .utils import (
+from utils import (
     EARTH_RADIUS_KM,
     get_xyz_from_lonlat,
 )

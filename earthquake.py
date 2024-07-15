@@ -7,7 +7,7 @@ import os
 from obspy.clients.fdsn import Client
 import warnings
 from pathlib import Path
-from .catalog import Catalog
+from catalog import Catalog
 from typing import Optional, Union
 
 base_dir = Path(__file__).parents[2]

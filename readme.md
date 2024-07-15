@@ -20,7 +20,7 @@ from earthquake import EarthquakeCatalog
 
 data_directory = "./data"
 
-earquake_metadata = {
+earthquake_metadata = {
     "starttime": '1990-01-01',
     "endtime": '2023-01-01',
     "latitude_range": [-90,90],
@@ -30,7 +30,7 @@ earquake_metadata = {
 
 earthquakes = EarthquakeCatalog(
     filename = data_directory + "/global_earthquakes_7.csv",
-    kwargs = earquake_metadata,
+    kwargs = earthquake_metadata,
 )
 ```
 
@@ -40,5 +40,5 @@ A simple map of earthquakes can be generated as follows
 
 ```python
 ax = earthquakes.plot_map()
-
+```
 
